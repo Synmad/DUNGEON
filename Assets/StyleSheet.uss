@@ -1,0 +1,24 @@
+.skill-button {
+    translate: 0 0;
+    height: 80%;
+    top: 0;
+    bottom: 0;
+    width: 21%;
+    margin-top: 1.4%;
+    margin-right: 1.4%;
+    margin-bottom: 1.4%;
+    margin-left: 1.4%;
+    justify-content: flex-start;
+    align-self: center;
+    align-items: center;
+    -unity-font-definition: initial;
+    background-color: rgb(101, 100, 100);
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-sine;
+}
+
+.skill-button:focus {
+    scale: 1.1 1.1;
+    background-color: rgb(207, 207, 207);
+}

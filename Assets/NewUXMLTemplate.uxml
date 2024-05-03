@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/StyleSheet.uss?fileID=7433441132597879392&amp;guid=6eba1c54ac21a7a468590e0c719f66de&amp;type=3#StyleSheet" />
+    <ui:VisualElement name="Bottom" style="flex-grow: 0; width: 100%; height: 23%; flex-shrink: 0; bottom: -77%; flex-direction: row;">
+        <ui:VisualElement name="ButtonTray" style="flex-direction: row; align-self: auto; justify-content: center; align-items: center; width: 50%; height: 100%;">
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SkillButton1" class="skill-button" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SkillButton2" class="skill-button" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SkillButton3" class="skill-button" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SkillButton4" class="skill-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Tooltip" style="width: 50%; height: 100%; background-color: rgba(0, 0, 0, 0.76); display: none;">
+            <ui:Label tabindex="-1" text="Title" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TooltipTitle" style="width: 100%; height: 30%; font-size: 63px; background-color: rgb(255, 255, 255); display: flex;" />
+            <ui:Label tabindex="-1" text="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TooltipDescription" style="flex-grow: 1; background-color: rgb(255, 255, 255); white-space: normal; font-size: 21px; text-overflow: clip; display: flex;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
